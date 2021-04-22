@@ -1,0 +1,69 @@
+body {
+  background: rgb(244, 248, 248);
+}
+
+.side-child {
+  min-height: 95vh;
+  border-radius: 2em;
+  padding: 2em;
+}
+
+.wrapper {
+  background-image: url("https://images.unsplash.com/photo-1605098293544-25f4c32344c8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80");
+  border-radius: 1em;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.modal-content {
+  border-radius: 1em;
+}
+
+.btn-orange {
+  background: #ef7115;
+  border-color: #ef7115;
+}
+.btn-orange:hover {
+  border-color: #ef7115;
+  background: #ef7115 !important;
+}
+
+.btn-orange:active {
+  border-color: #ef7115;
+  background: #ef7115 !important;
+}
+.btn-orange:visited {
+  border-color: #ef7115;
+  background: #ef7115 !important;
+}
+
+.custom-checkbox {
+  padding: 0.7em;
+  border-radius: 0.3em;
+  background: #f2f2f2;
+  border: 1px solid #ef7115;
+}
+
+.color-picker {
+  position: absolute;
+  right: 0;
+  top: 80;
+}
+
+.color-pick {
+  padding: 0.1em 0.1em 0.1em 1em;
+  border: 2px solid #000000;
+}
+
+.color-result {
+  padding: 0.8em 1em;
+}
+
+.shadow-smooth {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
