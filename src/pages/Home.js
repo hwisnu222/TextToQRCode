@@ -3,7 +3,7 @@ import { Container, Row, Col, Form, Button, Modal } from "react-bootstrap";
 import QRcode from "qrcode.react";
 import domImage from "dom-to-image";
 import FileSaver from "file-saver";
-import { SketchPicker, BlockPicker, CompactPicker } from "react-color";
+import { CompactPicker } from "react-color";
 
 export default function Home() {
   const [qr, setQr] = useState({
@@ -26,7 +26,7 @@ export default function Home() {
     setQr({
       ...qr,
       [e.target.name]:
-        e.target.name == "checkbox" ? e.target.checked : e.target.value,
+        e.target.name === "checkbox" ? e.target.checked : e.target.value,
     });
     setErrorFile(false);
   };
